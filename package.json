@@ -1,0 +1,24 @@
+{
+  "name": "vanik",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url /vanik/",
+    "deploy": "rm -rf dist/ && npm run build && gh-pages -d dist"
+  },
+  "homepage": "https://7999999166.github.io/vanik",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-svelte": "^4.0.6",
+    "svelte": "^3.29.4"
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
