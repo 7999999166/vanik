@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --public-url /vanik/",
+    "build": "parcel build index.html --public-url /kavi/",
     "deploy": "rm -rf dist/ && npm run build && gh-pages -d dist"
   },
-  "homepage": "https://7999999166.github.io/vanik",
+  "homepage": "https://7999999166.github.io/kavi",
   "keywords": [],
   "author": "",
   "license": "ISC",
